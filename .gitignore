@@ -1,3 +1,5 @@
+# IntelliJ/Rider specific stuff
+.idea/
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -72,3 +74,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Developer Related stuff
+Plugins/Developer/*
+
+# Some plugin binaries
+Plugins/UE4GitPlugin*/*/*
+Plugins/UE4GitPlugin/*
