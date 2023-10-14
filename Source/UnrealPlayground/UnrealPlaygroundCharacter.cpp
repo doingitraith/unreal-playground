@@ -10,6 +10,8 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
+#include "RotatingActor.h"
+#include "Components/SphereComponent.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -52,6 +54,10 @@ AUnrealPlaygroundCharacter::AUnrealPlaygroundCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
+
+	SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComponent"));
+	SphereComp->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform);
+	SphereComp->SetSphereRadius(200);
 }
 
 void AUnrealPlaygroundCharacter::BeginPlay()
@@ -128,3 +134,20 @@ void AUnrealPlaygroundCharacter::Look(const FInputActionValue& Value)
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
 }
+
+void AUnrealPlaygroundCharacter::NotifyActorBeginOverlap(AActor* OtherActor)
+{
+	if(ARotatingActor* RotatingActorCheck = Cast<ARotatingActor>(OtherActor))
+	{
+		RotatingActorCheck->SetbCanRotate(true);
+	}
+}
+
+void AUnrealPlaygroundCharacter::NotifyActorEndOverlap(AActor* OtherActor)
+{
+	if(ARotatingActor* RotatingActorCheck = Cast<ARotatingActor>(OtherActor))
+	{
+		RotatingActorCheck->SetbCanRotate(false);
+	}
+}
+
