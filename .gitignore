@@ -81,3 +81,6 @@ Plugins/Developer/*
 # Some plugin binaries
 Plugins/UE4GitPlugin*/*/*
 Plugins/UE4GitPlugin/*
+
+# Starter Conten
+Content/StarterContent/*
