@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "p:\\documents\\repositories\\unreal-playground\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealplayground\\uht\\unrealplaygroundcharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "p:\\documents\\repositories\\unreal-playground\\intermediate\\build\\win64\\x64\\unrealplaygroundeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "p:\\documents\\repositories\\unreal-playground\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealplayground\\definitions.unrealplayground.h",
+            "p:\\documents\\repositories\\unreal-playground\\source\\unrealplayground\\unrealplaygroundcharacter.h",
+            "p:\\software\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "p:\\software\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "p:\\software\\epic games\\ue_5.3\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "p:\\software\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "p:\\software\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "p:\\software\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "p:\\software\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "p:\\software\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "p:\\documents\\repositories\\unreal-playground\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealplayground\\uht\\unrealplaygroundcharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

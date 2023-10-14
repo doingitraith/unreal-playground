@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "p:\\documents\\repositories\\unreal-playground\\source\\unrealplayground\\rotatingactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "p:\\documents\\repositories\\unreal-playground\\intermediate\\build\\win64\\x64\\unrealplaygroundeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "p:\\documents\\repositories\\unreal-playground\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealplayground\\definitions.unrealplayground.h",
+            "p:\\documents\\repositories\\unreal-playground\\source\\unrealplayground\\rotatingactor.h",
+            "p:\\documents\\repositories\\unreal-playground\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealplayground\\uht\\rotatingactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
